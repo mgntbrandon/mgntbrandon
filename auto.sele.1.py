@@ -24,7 +24,7 @@ driver.switch_to.window(driver.window_handles[0])
 driver.find_element(By.XPATH,'//*[@id="fo_login_widget"]/a').click()
 time.sleep(.1)
 driver.find_element(By.ID,'user_id').send_keys('mgntbrandon@gmail.com')
-driver.find_element(By.ID,'user_pw').send_keys('king1379##')
+driver.find_element(By.ID,'user_pw').send_keys('##')
 driver.find_element(By.XPATH,'//*[@id="acField"]/input[4]').click()
 #driver.get('http://doldali.duckdns.org/index.php?mid=autoOrder')
 
@@ -176,7 +176,7 @@ while CondNo  < 9:
     #print(z)
     
     #driver.find_element_by_xpath('//*[@id="fds-order-info"]/div[3]/table/tbody/tr[1]/td/span[3]/label').click()
-    #driver.find_element_by_name('receiverAddress').send_keys('king1379##')
+    #driver.find_element_by_name('receiverAddress').send_keys('##')
     time.sleep(1)
     driver.find_element(By.XPATH,'//*[@id="top"]/div[2]/div/ul/li[1]/a').click()
     try:
