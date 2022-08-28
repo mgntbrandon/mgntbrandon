@@ -1,3 +1,7 @@
+# 셀레니움을 파이선으로 제어
+# 두개의 창을 열어 xe게시판의 내용을 읽어 쇼핑몰 주문자동화
+# visual atudio code 를 통해 수정함
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.select import Select
@@ -6,7 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.alert import Alert
-import time
+import time 
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
@@ -24,7 +28,11 @@ driver.switch_to.window(driver.window_handles[0])
 driver.find_element(By.XPATH,'//*[@id="fo_login_widget"]/a').click()
 time.sleep(.1)
 driver.find_element(By.ID,'user_id').send_keys('mgntbrandon@gmail.com')
+<<<<<<< HEAD
 driver.find_element(By.ID,'user_pw').send_keys('##')
+=======
+driver.find_element(By.ID,'user_pw').send_keys('..')
+>>>>>>> f84ba783378839bd870c80026b9d43e35107184b
 driver.find_element(By.XPATH,'//*[@id="acField"]/input[4]').click()
 #driver.get('http://doldali.duckdns.org/index.php?mid=autoOrder')
 
