@@ -176,7 +176,7 @@ while CondNo  < 9:
     #print(z)
     
     #driver.find_element_by_xpath('//*[@id="fds-order-info"]/div[3]/table/tbody/tr[1]/td/span[3]/label').click()
-    #driver.find_element_by_name('receiverAddress').send_keys('king1379##')
+    #driver.find_element_by_name('receiverAddress').send_keys('##')
     time.sleep(1)
     driver.find_element(By.XPATH,'//*[@id="top"]/div[2]/div/ul/li[1]/a').click()
     try:
