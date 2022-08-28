@@ -1,6 +1,8 @@
 # 셀레니움을 파이선으로 제어
 # 두개의 창을 열어 xe게시판의 내용을 읽어 쇼핑몰 주문자동화
 # visual atudio code 를 통해 수정함
+# 주문서 100개를 자동으로 처리하는데 대략 200초 정도 소요됨.
+# 예상보다 시간이 너무 오래걸려 selenium ide로 재개발 예정
 
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
