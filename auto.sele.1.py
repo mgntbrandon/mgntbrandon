@@ -100,7 +100,7 @@ while CondNo  < 9:
             url = 'http://stone-bridge.co.kr/goods/goods_view.php?goodsNo='+z[i][5]
             driver.get(url)
             time.sleep(.5)
-            try:
+            try: 
                 Cp=driver.find_element(By.XPATH,'//*[@id="frmView"]/div/div[4]')
                 print("==== XPATH {0}가 통과됨 =========".format(i))
                 break
