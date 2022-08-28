@@ -1,3 +1,6 @@
+# 셀레니움을 파이선으로 제어
+# 두개의 창을 열어 xe게시판의 내용을 읽어 쇼핑몰 주문자동화
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.select import Select
